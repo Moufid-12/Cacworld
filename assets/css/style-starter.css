@@ -4589,7 +4589,8 @@ fieldset:disabled .btn {
 
 /* Couleur des onglets lorsqu'ils sont actifs */
 .nav-pills .nav-link.active {
-  background-color: #8b6d3b; /* Une teinte plus foncée pour différencier l'actif */
+  background-color: #8b6d3b;
+  font-weight: bold; /* Une teinte plus foncée pour différencier l'actif */
 }
 
 .agro .accordion-button {
@@ -19149,6 +19150,11 @@ header.nav-fixed {
   transition: all 1.8s ease-in-out;
 }
 
+.sellCar .btn-style{
+  padding: 6px;
+  border-radius: 5px;
+}
+
 .btn-style:hover {
   background: var(--primary-dark);
   border-color: var(--primary-dark);
@@ -20625,6 +20631,15 @@ p.post-footer a:hover {
   -ms-background-size: cover;
   position: relative;
   z-index: 0;
+}
+
+.inner-banner.automobile{
+  background: url(../images/voiture.jpg) no-repeat top;
+   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
 }
 
 .inner-banner::before {
